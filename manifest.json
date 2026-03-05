@@ -1,0 +1,23 @@
+{
+  "name": "FlexWork Pro – Remote Jobs Deutschland",
+  "short_name": "FlexWork Pro",
+  "description": "Flexible Remote Jobs & Homeoffice Möglichkeiten in Deutschland – ab 4000€/Monat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#10b981",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

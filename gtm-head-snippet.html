@@ -1,0 +1,68 @@
+<!-- Google Tag Manager - Head Section (Recommended placement: right after <head> opening tag) -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+<!-- End Google Tag Manager -->
+
+<!-- ==============================================
+     Optional: Advanced GTM Data Layer Variables
+     (Great for better tracking & personalization)
+=============================================== -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  // Push important page-level data (very useful for remarketing & analytics)
+  dataLayer.push({
+    'event': 'pageView',
+    'page': {
+      'title': document.title,
+      'url': window.location.href,
+      'path': window.location.pathname,
+      'domain': window.location.hostname,
+      'language': 'de',
+      'category': 'Landing Page',
+      'type': 'Remote Jobs Offer',
+      'campaign': '2026-remote-homeoffice'
+    },
+    'user': {
+      'visitorType': 'new',           // You can update this dynamically later
+      'location': 'Deutschland'       // Can be enriched with geo data
+    },
+    'job': {
+      'offerVisible': true,
+      'salaryRange': '100-300€/Tag | 4000€+/Monat',
+      'jobTypes': ['Teilzeit', 'Vollzeit', 'Remote', 'Homeoffice']
+    }
+  });
+</script>
+
+<!-- ==============================================
+     Recommended: Consent Mode v2 (very important in EU/GDPR 2026)
+     ? Prevents tracking before consent
+=============================================== -->
+<script>
+  // Default consent state (before user chooses)
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'functionality_storage': 'granted',     // Usually allowed
+    'personalization_storage': 'granted',
+    'security_storage': 'granted'
+  });
+</script>
+
+<!-- ==============================================
+     Google Tag Manager - Body Section (noscript fallback)
+     Place this right after <body> opening tag
+=============================================== -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->

@@ -1,0 +1,14 @@
+/* TEAM */
+  Developer: john miller / 
+portal: https://www.flexworkpro.de
+  Location: Germany (remote)
+
+  Company: FlexWork Pro
+  Site: https://www.flexworkpro.de
+
+/* THANKS */
+  Built with: Tailwind CSS, PHP, ?? for remote work freedom
+
+/* TECHNOLOGY */
+  Stack: HTML5, Tailwind CSS, PHP, Meta Pixel
+  Hosting: (your provider)

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.flexworkpro.de/sitemap.xml
+
+# Optional: block admin/dev areas if you have any
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /login/
